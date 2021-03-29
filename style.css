@@ -18,11 +18,11 @@ body{
 .nav-links{
     display: flex;
     list-style-type: none;
-    padding-left: 80%;  
+    padding-left: 70%;  
 }
 
 li{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .container{
@@ -45,4 +45,8 @@ li{
     background-color: red;
     border-radius: 5px;
 
+}
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
