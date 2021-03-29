@@ -3,11 +3,16 @@ body{
     height: 100%;
     width: 100;
     font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    color: red;
+    background: #f1f5f8;
 }
 .nav-center{
     display: flex;
     height: 40px;
     width: 100%;
+    background-color: lightblue;
+    padding: 10px;
 }
 
 .nav-links{
@@ -21,6 +26,23 @@ li{
 }
 
 .container{
-    
-    padding: 15% 0% 0% 25%;
+    margin: 15% 0% 0% 25%;
+    background-color: Black;
+    color: white;
+    height: 200px;
+    width: 500px;
+    padding-left: 70px;
+    padding-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px red;
+}
+
+.btn-h{
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    border-radius: 5px;
+
 }
